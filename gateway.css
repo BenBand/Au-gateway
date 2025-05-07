@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styles for nav bar */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo > h2 {
+    color: red;
+    font-size: 1rem;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+.nav-links > ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 14px;
+}
+
+.nav-links > ul > li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav-links > ul > li > a {
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.language-translator {
+    font-size: 10px;
+}
+
+.signUp-active {
+    background-color: rgb(243, 14, 14);
+    border-radius: 5px;
+}
+
+.nav-links > ul > li > .signUp-active {
+    color: white;
+}
+/* Styles for nav bar */
+
+/* Styles for home banar */
+.banar {
+    padding: 30px;
+    background-color: rgb(241, 39, 39);
+}
+
+.banar > h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.banar > p {
+    color: white;
+    margin-top: 14px;
+}
+
+.banar > form > button {
+    margin-top: 20px;
+    color: red;
+    width: 110px;
+    background-color: white;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Styles for home banar */
